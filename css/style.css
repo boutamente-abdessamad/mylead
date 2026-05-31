@@ -1,32 +1,33 @@
 /* ============================================================
    mylead — Precision Dark Editorial
-   Style: Luxury tech-agency, asymmetric, electric teal
+   Style: Luxury tech-agency, asymmetric, electric blue
    Fonts: Epilogue (display) + DM Sans (body)
+   Colors: BrightSaaS — deep navy + electric blue #3b82f6
    ============================================================ */
 
 /* ---- CSS Custom Properties ---- */
 :root {
-  /* Colors */
-  --bg-base:        #0B0C0F;
-  --bg-surface:     #12141A;
-  --bg-elevated:    #1A1D25;
-  --bg-light:       #F4F5F0;
-  --bg-light-alt:   #EAEBE6;
+  /* Colors — BrightSaaS palette */
+  --bg-base:        #080e1a;
+  --bg-surface:     #0f1729;
+  --bg-elevated:    #192438;
+  --bg-light:       #d7e4f5;
+  --bg-light-alt:   #b6cdf2;
 
-  --accent:         #00D4AA;
-  --accent-dim:     rgba(0, 212, 170, 0.15);
-  --accent-glow:    rgba(0, 212, 170, 0.35);
-  --accent-dark:    #00A887;
+  --accent:         #3b82f6;
+  --accent-dim:     rgba(59, 130, 246, 0.12);
+  --accent-glow:    rgba(59, 130, 246, 0.35);
+  --accent-dark:    #114dad;
 
-  --text-primary:   #F0F1EC;
-  --text-secondary: #9A9FA8;
-  --text-muted:     #5C6270;
-  --text-on-light:  #0E1016;
-  --text-on-light-secondary: #4A5160;
+  --text-primary:   #d7e4f5;
+  --text-secondary: #93a2b8;
+  --text-muted:     #64748b;
+  --text-on-light:  #080e1a;
+  --text-on-light-secondary: #2d3b59;
 
-  --border:         rgba(255, 255, 255, 0.07);
-  --border-accent:  rgba(0, 212, 170, 0.3);
-  --border-light:   rgba(0, 0, 0, 0.1);
+  --border:         rgba(45, 59, 89, 0.8);
+  --border-accent:  rgba(59, 130, 246, 0.35);
+  --border-light:   rgba(0, 0, 0, 0.12);
 
   /* Typography */
   --font-display:   'Epilogue', sans-serif;
@@ -188,7 +189,7 @@ input, textarea, select, button {
 
 .btn-primary {
   background-color: var(--accent);
-  color: var(--bg-base);
+  color: #ffffff;
   border-color: var(--accent);
 }
 
@@ -342,7 +343,7 @@ input, textarea, select, button {
   position: absolute;
   inset: 0;
   background-image:
-    radial-gradient(circle, rgba(255,255,255,0.08) 1px, transparent 1px);
+    radial-gradient(circle, rgba(45, 59, 89, 0.6) 1px, transparent 1px);
   background-size: 36px 36px;
   mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
   pointer-events: none;
@@ -362,7 +363,7 @@ input, textarea, select, button {
   height: 600px;
   top: -150px;
   right: -100px;
-  background: radial-gradient(circle, rgba(0, 212, 170, 0.18) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.18) 0%, transparent 70%);
 }
 
 .hero-orb--secondary {
@@ -370,7 +371,7 @@ input, textarea, select, button {
   height: 400px;
   bottom: -50px;
   left: -80px;
-  background: radial-gradient(circle, rgba(0, 150, 200, 0.12) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(17, 77, 173, 0.15) 0%, transparent 70%);
   animation-delay: -4s;
 }
 
@@ -1107,7 +1108,7 @@ a.contact-meta-item:hover {
 
 .form-group select {
   appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%239A9FA8' d='M1 1l5 5 5-5'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%2393a2b8' d='M1 1l5 5 5-5'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 1rem center;
   padding-right: 2.5rem;
