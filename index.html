@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="mylead — A precision digital agency helping ambitious brands accelerate growth through engineering, marketing, and data-driven acquisition." />
+  <meta name="keywords" content="digital agency, growth marketing, web development, SEO, paid ads, e-commerce, social media" />
+  <meta name="author" content="mylead" />
+  <title>mylead — Precision Digital Growth</title>
+
+  <!-- Google Fonts: Epilogue + DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700;800;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="site-header" id="top">
+    <nav class="nav-container" aria-label="Main navigation">
+      <a href="#top" class="nav-logo" aria-label="mylead home">
+        <span class="logo-mark">my</span><span class="logo-accent">lead</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu" role="list">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#ecommerce" class="nav-link">E-Commerce</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><button class="btn btn-nav" id="navCta" aria-haspopup="dialog">Get a Quote</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero" aria-labelledby="heroHeading">
+      <div class="hero-grid-overlay" aria-hidden="true"></div>
+      <div class="hero-orb" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb--secondary" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <div class="hero-tag gs-fade-up">
+          <span class="tag-dot" aria-hidden="true"></span>
+          Precision Digital Agency
+        </div>
+
+        <h1 class="hero-heading gs-fade-up" id="heroHeading">
+          Your brand's next<br />
+          <span class="heading-accent">growth chapter</span><br />
+          starts here.
+        </h1>
+
+        <p class="hero-sub gs-fade-up">
+          We combine engineering, paid media, and SEO into one integrated system — so every channel compounds.
+        </p>
+
+        <div class="hero-actions gs-fade-up">
+          <button class="btn btn-primary" data-modal-trigger aria-haspopup="dialog">Get Started</button>
+          <a href="#services" class="btn btn-ghost">
+            Explore Services
+            <i class="fa-solid fa-arrow-right btn-icon" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <div class="hero-stats gs-fade-up" aria-label="Key metrics">
+          <div class="stat">
+            <span class="stat-number">120<span class="stat-plus">+</span></span>
+            <span class="stat-label">Brands Scaled</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-number">3.8<span class="stat-plus">x</span></span>
+            <span class="stat-label">Avg. ROAS</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-number">98<span class="stat-plus">%</span></span>
+            <span class="stat-label">Client Retention</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span class="scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="about section-pad" id="about" aria-labelledby="aboutHeading">
+      <div class="deco-lines" aria-hidden="true">
+        <span class="deco-line deco-line--1"></span>
+        <span class="deco-line deco-line--2"></span>
+        <span class="deco-line deco-line--3"></span>
+      </div>
+      <div class="container about-inner">
+        <div class="about-visual gs-slide-right" aria-hidden="true">
+          <div class="about-card">
+            <div class="about-card-row">
+              <i class="fa-solid fa-bolt about-icon" aria-hidden="true"></i>
+              <span>Performance-first</span>
+            </div>
+            <div class="about-card-row">
+              <i class="fa-solid fa-chart-line about-icon" aria-hidden="true"></i>
+              <span>Data-driven decisions</span>
+            </div>
+            <div class="about-card-row">
+              <i class="fa-solid fa-handshake about-icon" aria-hidden="true"></i>
+              <span>Long-term partnerships</span>
+            </div>
+          </div>
+          <div class="about-badge">
+            <span class="badge-year">Est. 2018</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <div class="section-tag gs-fade-up">Who We Are</div>
+          <h2 class="section-heading gs-fade-up" id="aboutHeading">
+            We don't just run campaigns.<br />We build growth systems.
+          </h2>
+          <p class="body-text gs-fade-up">
+            mylead was founded on a single conviction: that sustainable digital growth is not a matter of luck — it's the result of precision engineering, sharp strategy, and relentless iteration.
+          </p>
+          <p class="body-text gs-fade-up">
+            We work with e-commerce founders, SaaS companies, and consumer brands that are ready to scale seriously. Our integrated approach combines technical excellence with performance marketing — so every channel, every touchpoint, and every dollar works harder.
+          </p>
+          <a href="#services" class="btn btn-primary gs-fade-up">See How We Work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="services section-pad section-dark" id="services" aria-labelledby="servicesHeading">
+      <div class="deco-lines" aria-hidden="true">
+        <span class="deco-line deco-line--4"></span>
+        <span class="deco-line deco-line--5"></span>
+      </div>
+      <div class="container">
+        <div class="section-header gs-fade-up">
+          <div class="section-tag">What We Do</div>
+          <h2 class="section-heading" id="servicesHeading">
+            Four pillars.<br />One integrated machine.
+          </h2>
+          <p class="section-sub">
+            Every service is engineered to deliver measurable outcomes — not vanity metrics.
+          </p>
+        </div>
+
+        <ul class="services-grid" role="list">
+
+          <li class="service-card gs-stagger" role="listitem">
+            <div class="service-card-icon" aria-hidden="true">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="service-card-label">01</div>
+            <h3 class="service-card-title">Web & Mobile App Development</h3>
+            <p class="service-card-desc">
+              From conversion-optimized storefronts to complex SaaS platforms — we engineer digital products built for speed, scale, and user retention.
+            </p>
+            <div class="service-card-tags" aria-label="Technologies">
+              <span class="stag">React</span>
+              <span class="stag">Next.js</span>
+              <span class="stag">React Native</span>
+            </div>
+          </li>
+
+          <li class="service-card gs-stagger" role="listitem">
+            <div class="service-card-icon" aria-hidden="true">
+              <i class="fa-solid fa-magnifying-glass-chart"></i>
+            </div>
+            <div class="service-card-label">02</div>
+            <h3 class="service-card-title">Growth Marketing & SEO</h3>
+            <p class="service-card-desc">
+              Organic growth that compounds. We implement technical SEO architectures, content strategies, and CRO frameworks that build durable authority.
+            </p>
+            <div class="service-card-tags" aria-label="Capabilities">
+              <span class="stag">Technical SEO</span>
+              <span class="stag">CRO</span>
+              <span class="stag">Content</span>
+            </div>
+          </li>
+
+          <li class="service-card gs-stagger" role="listitem">
+            <div class="service-card-icon" aria-hidden="true">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <div class="service-card-label">03</div>
+            <h3 class="service-card-title">Paid Acquisition — Meta & Google</h3>
+            <p class="service-card-desc">
+              Full-funnel paid media strategies built for profitability. We manage media budgets with a ROAS-first mindset and continuous creative iteration.
+            </p>
+            <div class="service-card-tags" aria-label="Platforms">
+              <span class="stag">Meta Ads</span>
+              <span class="stag">Google Ads</span>
+              <span class="stag">Performance Max</span>
+            </div>
+          </li>
+
+          <li class="service-card gs-stagger" role="listitem">
+            <div class="service-card-icon" aria-hidden="true">
+              <i class="fa-solid fa-share-nodes"></i>
+            </div>
+            <div class="service-card-label">04</div>
+            <h3 class="service-card-title">Social Media Architecture</h3>
+            <p class="service-card-desc">
+              Strategy, content production, and community management — built around your brand voice and designed to convert attention into loyal customers.
+            </p>
+            <div class="service-card-tags" aria-label="Channels">
+              <span class="stag">Instagram</span>
+              <span class="stag">TikTok</span>
+              <span class="stag">LinkedIn</span>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== E-COMMERCE ===================== -->
+    <section class="ecommerce section-pad" id="ecommerce" aria-labelledby="ecomHeading">
+      <div class="deco-lines" aria-hidden="true">
+        <span class="deco-line deco-line--6"></span>
+        <span class="deco-line deco-line--7"></span>
+        <span class="deco-line deco-line--8"></span>
+      </div>
+      <div class="container">
+        <div class="ecom-header gs-fade-up">
+          <div class="section-tag">E-Commerce Growth</div>
+          <h2 class="section-heading" id="ecomHeading">
+            The data stack that turns browsers into buyers.
+          </h2>
+          <p class="section-sub">
+            We don't guess — we measure. Our e-commerce methodology is built on a foundation of clean data, intelligent tracking, and aggressive optimization.
+          </p>
+        </div>
+
+        <div class="ecom-grid">
+
+          <div class="ecom-stats gs-slide-left">
+            <div class="ecom-stat-card">
+              <span class="estat-number">+240%</span>
+              <span class="estat-label">Average revenue increase within 6 months</span>
+            </div>
+            <div class="ecom-stat-card">
+              <span class="estat-number">-38%</span>
+              <span class="estat-label">Average reduction in cost-per-acquisition</span>
+            </div>
+            <div class="ecom-stat-card">
+              <span class="estat-number">4.2x</span>
+              <span class="estat-label">Median return on ad spend across client portfolio</span>
+            </div>
+          </div>
+
+          <div class="ecom-pillars gs-slide-right">
+            <h3 class="ecom-pillars-title">Our Technical Growth Framework</h3>
+
+            <div class="ecom-pillar">
+              <div class="pillar-icon" aria-hidden="true">
+                <i class="fa-brands fa-google"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>Google Analytics 4 Architecture</h4>
+                <p>We implement GA4 with full e-commerce event tracking, custom dimensions, and funnel visualization — so you can see exactly where revenue is won and lost.</p>
+              </div>
+            </div>
+
+            <div class="ecom-pillar">
+              <div class="pillar-icon" aria-hidden="true">
+                <i class="fa-brands fa-meta"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>Meta Conversions API (CAPI)</h4>
+                <p>Server-side event tracking that survives ad blockers and iOS restrictions — giving your Meta campaigns the signal quality they need to optimize profitably.</p>
+              </div>
+            </div>
+
+            <div class="ecom-pillar">
+              <div class="pillar-icon" aria-hidden="true">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>Deep Technical Audits</h4>
+                <p>We audit your store's Core Web Vitals, checkout flow, tracking integrity, and attribution model — then build a prioritized roadmap to address every revenue leak.</p>
+              </div>
+            </div>
+
+            <div class="ecom-pillar">
+              <div class="pillar-icon" aria-hidden="true">
+                <i class="fa-solid fa-rotate"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>Continuous Conversion Testing</h4>
+                <p>Structured A/B tests on landing pages, product pages, and checkout — informed by heatmaps, session recordings, and user behavior analytics.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="faq section-pad section-dark" id="faq" aria-labelledby="faqHeading">
+      <div class="container faq-inner">
+        <div class="faq-header gs-fade-up">
+          <div class="section-tag">Common Questions</div>
+          <h2 class="section-heading" id="faqHeading">
+            Things people ask<br />before we start.
+          </h2>
+        </div>
+
+        <div class="faq-list gs-fade-up" role="list">
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq1">
+              <span>How long before we see measurable results?</span>
+              <span class="faq-icon" aria-hidden="true"><i class="fa-solid fa-plus"></i></span>
+            </button>
+            <div class="faq-answer" id="faq1" hidden>
+              <p>Timelines vary by channel. Paid media campaigns typically generate meaningful data and early ROAS signals within the first 30–45 days. SEO and organic growth strategies build momentum over 3–6 months, with compounding returns thereafter. We set clear KPI benchmarks at the start of every engagement so expectations are always aligned.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq2">
+              <span>Do you work with early-stage brands or only established ones?</span>
+              <span class="faq-icon" aria-hidden="true"><i class="fa-solid fa-plus"></i></span>
+            </button>
+            <div class="faq-answer" id="faq2" hidden>
+              <p>We work with brands at multiple stages, but we're most effective with companies that have achieved product-market fit and are ready to scale aggressively. For early-stage brands, we can help build the digital foundations — tracking infrastructure, website performance, and an initial acquisition strategy — to set you up for scalable growth.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq3">
+              <span>What does an engagement with mylead typically look like?</span>
+              <span class="faq-icon" aria-hidden="true"><i class="fa-solid fa-plus"></i></span>
+            </button>
+            <div class="faq-answer" id="faq3" hidden>
+              <p>We begin every new partnership with a comprehensive audit covering your current digital performance, tracking health, competitive landscape, and growth opportunities. From that, we produce a 90-day strategic roadmap. You'll have a dedicated account lead, bi-weekly strategy calls, and a live performance dashboard updated in real time.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq4">
+              <span>How do you handle reporting and transparency?</span>
+              <span class="faq-icon" aria-hidden="true"><i class="fa-solid fa-plus"></i></span>
+            </button>
+            <div class="faq-answer" id="faq4" hidden>
+              <p>Transparency is non-negotiable for us. Every client receives access to a custom Looker Studio dashboard that consolidates all channel performance in one view — ad spend, revenue, ROAS, SEO rankings, conversion rates, and more. We send a concise weekly performance digest and conduct a deep-dive monthly review call with your team.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq5">
+              <span>What ad budget do you recommend to get started?</span>
+              <span class="faq-icon" aria-hidden="true"><i class="fa-solid fa-plus"></i></span>
+            </button>
+            <div class="faq-answer" id="faq5" hidden>
+              <p>For paid acquisition, we recommend a minimum monthly ad spend of €2,000–€3,000 on a single channel to generate statistically significant data within the learning phase. For multi-channel strategies, we build a budget recommendation based on your growth targets, margins, and competitive context. Quality of setup always outperforms raw spend volume.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="contact section-pad" id="contact" aria-labelledby="contactHeading">
+      <div class="deco-lines" aria-hidden="true">
+        <span class="deco-line deco-line--9"></span>
+        <span class="deco-line deco-line--10"></span>
+      </div>
+      <div class="container contact-inner">
+        <div class="contact-content gs-slide-left">
+          <div class="section-tag">Let's Talk</div>
+          <h2 class="section-heading" id="contactHeading">
+            Ready to build something that actually grows?
+          </h2>
+          <p class="body-text">
+            Drop us a message. No sales pressure — just a real conversation about where your brand is headed and how we can help you get there faster.
+          </p>
+          <address class="contact-meta">
+            <a href="mailto:hello@mylead.agency" class="contact-meta-item">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              hello@mylead.agency
+            </a>
+            <span class="contact-meta-item">
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              12 Rue de l'Innovation, 75008 Paris, France
+            </span>
+          </address>
+        </div>
+
+        <div class="contact-form-wrap gs-slide-right">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="contactName">Full Name</label>
+              <input type="text" id="contactName" name="name" placeholder="Jane Dupont" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="contactEmail">Email Address</label>
+              <input type="email" id="contactEmail" name="email" placeholder="jane@company.com" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="contactMessage">Your Message</label>
+              <textarea id="contactMessage" name="message" rows="5" placeholder="Tell us about your brand, your current challenges, and what growth looks like for you..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message <i class="fa-solid fa-paper-plane" aria-hidden="true"></i></button>
+            <p class="form-success" id="contactSuccess" aria-live="polite" hidden>Your message has been sent. We'll be in touch within one business day.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#top" class="nav-logo footer-logo" aria-label="mylead home">
+          <span class="logo-mark">my</span><span class="logo-accent">lead</span>
+        </a>
+        <p class="footer-tagline">Precision digital growth for ambitious brands.</p>
+        <address class="footer-contact">
+          <a href="mailto:hello@mylead.agency">hello@mylead.agency</a>
+          <span>12 Rue de l'Innovation, 75008 Paris</span>
+        </address>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <div class="footer-nav-col">
+          <h3 class="footer-nav-title">Services</h3>
+          <ul role="list">
+            <li><a href="#services">Web Development</a></li>
+            <li><a href="#services">Growth & SEO</a></li>
+            <li><a href="#services">Paid Acquisition</a></li>
+            <li><a href="#services">Social Media</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav-col">
+          <h3 class="footer-nav-title">Company</h3>
+          <ul role="list">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#ecommerce">Case Studies</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="footer-social">
+        <h3 class="footer-nav-title">Follow Us</h3>
+        <div class="social-links" aria-label="Social media links">
+          <a href="#" class="social-link" aria-label="mylead on LinkedIn" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="social-link" aria-label="mylead on Instagram" rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="social-link" aria-label="mylead on X (Twitter)" rel="noopener noreferrer">
+            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="social-link" aria-label="mylead on TikTok" rel="noopener noreferrer">
+            <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p class="footer-copy">&copy; <span id="footerYear"></span> mylead. All rights reserved.</p>
+        <nav aria-label="Legal">
+          <ul class="footer-legal" role="list">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== MODAL ===================== -->
+  <div class="modal-overlay" id="quoteModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-container">
+      <button class="modal-close" id="modalClose" aria-label="Close quote modal">
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </button>
+
+      <div class="modal-header">
+        <div class="section-tag">Start Your Journey</div>
+        <h2 class="modal-title" id="modalTitle">Get a Custom Quote</h2>
+        <p class="modal-sub">Tell us about your project and we'll come back with a tailored proposal within 24 hours.</p>
+      </div>
+
+      <form class="modal-form" id="quoteForm" novalidate>
+        <fieldset class="modal-fieldset">
+          <legend class="fieldset-legend">Your Information</legend>
+          <div class="modal-form-row">
+            <div class="form-group">
+              <label for="quoteName">Full Name</label>
+              <input type="text" id="quoteName" name="name" placeholder="Jane Dupont" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="quoteEmail">Work Email</label>
+              <input type="email" id="quoteEmail" name="email" placeholder="jane@company.com" required autocomplete="email" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="quoteCompany">Company Name</label>
+            <input type="text" id="quoteCompany" name="company" placeholder="Acme Inc." required autocomplete="organization" />
+          </div>
+        </fieldset>
+
+        <fieldset class="modal-fieldset">
+          <legend class="fieldset-legend">Services Required</legend>
+          <div class="form-group">
+            <label for="quoteProject">Project Type</label>
+            <select id="quoteProject" name="project_type">
+              <option value="">Select a primary focus...</option>
+              <option value="web">Web & Mobile Development</option>
+              <option value="seo">Growth Marketing & SEO</option>
+              <option value="paid">Paid Acquisition (Meta / Google)</option>
+              <option value="social">Social Media Architecture</option>
+              <option value="ecom">Full E-Commerce Growth Package</option>
+            </select>
+          </div>
+
+          <div class="form-group checkbox-group">
+            <p class="checkbox-legend">Additional services of interest:</p>
+            <label class="checkbox-label">
+              <input type="checkbox" name="services" value="audit" />
+              <span>Technical & Tracking Audit</span>
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" name="services" value="cro" />
+              <span>Conversion Rate Optimization</span>
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" name="services" value="analytics" />
+              <span>Analytics & Reporting Setup (GA4 / Looker Studio)</span>
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" name="services" value="strategy" />
+              <span>Full Digital Strategy Consultation</span>
+            </label>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteBudget">Monthly Budget Range</label>
+            <select id="quoteBudget" name="budget">
+              <option value="">Select a range...</option>
+              <option value="1k-3k">€1,000 – €3,000 / month</option>
+              <option value="3k-7k">€3,000 – €7,000 / month</option>
+              <option value="7k-15k">€7,000 – €15,000 / month</option>
+              <option value="15k+">€15,000+ / month</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <button type="submit" class="btn btn-primary btn-full">Submit My Request <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+        <p class="form-success" id="quoteSuccess" aria-live="polite" hidden>Thank you! We'll have a proposal ready for you within 24 hours.</p>
+      </form>
+    </div>
+  </div>
+
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9d/6/H6cM7VDSFBRJsJiKVkj0u5FjsXDCVOhS7MNS8VKGHXiFqCKhKwiy9VKW19t97N4cGe2A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
